@@ -162,6 +162,10 @@ img {
   margin-left: 50px;
 }
 
+.site-auto .item {
+  align-items: center;
+}
+
 .site-auto .item:nth-child(1):before {
   content: '';
   width: 16px;
@@ -179,15 +183,6 @@ img {
   background-image: url(../images/icons/icon-smartphone.svg);
   background-size: contain;
 }
-/* .icon-envelope {
-  display: inline-flex;
-}
-.icon-envelope::before {
-  width: 16px;
-  height: 12px;
-  background-color: #f0f;
-  content: '';
-} */
 
 .container {
   margin-left: auto;
