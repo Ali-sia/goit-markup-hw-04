@@ -194,6 +194,7 @@ img {
 }
 
 /* logo decorstion */
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -221,6 +222,7 @@ img {
 }
 
 /*hero section*/
+
 .hero {
   width: 100%;
   padding: 200px 0;
@@ -249,6 +251,7 @@ img {
 }
 
 /* section */
+
 .section-title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -382,16 +385,6 @@ img {
 }
 
 /* clients */
-
-/* .occupation {
-  padding-top: 0;
-}
-.occupation-list {
-  display: flex;
-}
-.occupation-list .item:not(:nth-last-child(-n + 1)) {
-  margin-right: 30px;
-} */
 
 .clients-list {
   display: flex;
@@ -569,3 +562,11 @@ button {
   margin-top: 0;
   margin-bottom: 9px;
 }
+
+/* .test {
+  background-color: crimson;
+  width: 300px;
+}
+.test1 {
+  display: flex;
+} */
