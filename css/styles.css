@@ -46,7 +46,7 @@ h3: font-family: 'Roboto'; 500
   --border-nav-color: #ececec;
   --border-portfolio-color: #eeeeee;
   --hero-bgc: #c4c4c4;
-  /* --team-bgr: #afb1b8; */
+  --border-clients-color: #afb1b8;
 }
 
 body {
@@ -328,7 +328,6 @@ img {
   padding-top: 0;
 }
 
-/* margin-bottom: 94px; */
 .occupation-list {
   display: flex;
 }
@@ -380,6 +379,34 @@ img {
 
 .team-list p {
   margin: 0;
+}
+
+/* clients */
+
+/* .occupation {
+  padding-top: 0;
+}
+.occupation-list {
+  display: flex;
+}
+.occupation-list .item:not(:nth-last-child(-n + 1)) {
+  margin-right: 30px;
+} */
+
+.clients-list {
+  display: flex;
+  justify-content: center;
+}
+
+.clients-list .item {
+  width: 170px;
+  border: 1px solid var(--border-clients-color);
+  border-radius: 4px;
+  padding: 16px 32px;
+}
+
+.clients-list .item + .item {
+  margin-left: 30px;
 }
 
 /* fiftr buttons */
