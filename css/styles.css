@@ -361,7 +361,7 @@ img {
 
 .team-list .item {
   text-align: center;
-  background-color: var(--team-bgr);
+  background-color: var(--white-text-color);
 }
 
 .team-list .title {
