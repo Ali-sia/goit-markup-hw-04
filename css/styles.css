@@ -88,6 +88,13 @@ a {
   letter-spacing: 0.02em;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding: 0 15px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -189,13 +196,6 @@ img {
   margin-right: 10px;
   background-image: url(../images/icons/icon-smartphone.svg);
   background-size: contain;
-}
-
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  padding: 0 15px;
 }
 
 /* logo decorstion */
@@ -569,12 +569,22 @@ button {
   margin-top: 0;
   margin-bottom: 9px;
 }
-
-.test {
-  background-color: crimson;
-  margin-right: 15px;
-  /* width: 300px; */
+.contact-info {
+  display: inherit;
+  align-items: flex-start;
 }
-.test1 {
+.footer-container {
   width: fit-content;
+  margin-right: 70px;
+}
+.footer .container {
+  display: flex;
+}
+
+.contact-info .title {
+  margin: 12px 0 20px 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
