@@ -230,8 +230,11 @@ img {
 
 .hero {
   width: 100%;
-  padding: 200px 0;
   text-align: center;
+}
+.hero-bg {
+  max-width: 1600px;
+  padding: 200px 0;
 
   background-color: var(--hero-bgc);
   background-repeat: no-repeat;
@@ -369,6 +372,9 @@ img {
 .team-list .item {
   text-align: center;
   background-color: var(--white-text-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-list .title {
@@ -469,6 +475,12 @@ img {
   padding: 20px 24px;
 }
 
+.portfolio-list .item:hover,
+.portfolio-list .item:focus {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
 .portfolio-list .link {
   color: var(--primary-text-color);
 }
@@ -530,6 +542,8 @@ button {
 .button.secondary:focus {
   background-color: var(--accent-color);
   color: var(--button-navigation-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 /* footer */
