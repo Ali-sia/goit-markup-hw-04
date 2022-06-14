@@ -180,7 +180,7 @@ img {
   align-items: center;
 }
 
-.site-auto .item:nth-child(1):before {
+/* .site-auto .item:nth-child(1):before {
   content: '';
   width: 16px;
   height: 12px;
@@ -196,7 +196,7 @@ img {
   margin-right: 10px;
   background-image: url(../images/icons/icon-smartphone.svg);
   background-size: contain;
-}
+} */
 
 /* logo decorstion */
 
@@ -587,4 +587,16 @@ button {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+}
+
+.button-circle {
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+}
+.button-icon {
+  width: 20px;
+  height: 20px;
 }
