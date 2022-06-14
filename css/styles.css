@@ -530,6 +530,8 @@ button {
 
 /* footer */
 .footer {
+  display: flex;
+  justify-content: flex-start;
   padding: 60px 0;
   background-color: var(--dark-bgc);
   color: var(--white-text-color);
@@ -551,7 +553,8 @@ button {
 }
 
 .footer-container .logo {
-  display: block;
+  /* display: block; */
+  display: inline-flex;
   margin-top: 0;
   margin-bottom: 20px;
 }
@@ -563,10 +566,11 @@ button {
   margin-bottom: 9px;
 }
 
-/* .test {
+.test {
   background-color: crimson;
-  width: 300px;
+  margin-right: 15px;
+  /* width: 300px; */
 }
 .test1 {
-  display: flex;
-} */
+  width: fit-content;
+}
