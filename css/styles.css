@@ -39,13 +39,18 @@ h3: font-family: 'Roboto'; 500
   --title-text-color: #212121;
   --black-text-color: #000000;
   --accent-color: #2196f3;
+
   --footer-link-color: rgba(255, 255, 255, 0.6);
   --footer-hover-color: rgba(33, 150, 243, 0.6);
+
   --dark-bgc: #2f303a;
+  --hero-bgc: #c4c4c4;
+
   --button-navigation-color: #f5f4fa;
+  --button-pripary-hover: #188ce8;
+
   --border-nav-color: #ececec;
   --border-portfolio-color: #eeeeee;
-  --hero-bgc: #c4c4c4;
   --border-clients-color: #afb1b8;
 }
 
@@ -234,7 +239,7 @@ img {
   background-size: cover;
 
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../images/icons/bgi.png);
+    url(../images/bgi.png);
 }
 
 .hero-title {
@@ -513,8 +518,7 @@ button {
 
 .button.primary:hover,
 .button.primary:focus {
-  background-color: var(--white-text-color);
-  color: var(--accent-color);
+  background-color: var(--button-pripary-hover);
 }
 
 .button.secondary {
