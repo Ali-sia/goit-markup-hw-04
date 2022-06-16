@@ -324,6 +324,20 @@ img {
 .feature-list .item {
   width: 270px;
 }
+
+.feature-list .item {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 270px;
+}
+
+.icon-feature {
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--button-navigation-color);
+}
 /* 
 .feature-list .item::before {
   display: block;
@@ -655,18 +669,4 @@ button {
 .button-link:hover,
 .button-link:focus {
   background-color: var(--accent-color);
-}
-
-.feature-list .item {
-  display: inline-flex;
-  justify-content: center;
-
-  flex-direction: column;
-
-  width: 270px;
-}
-
-.icon-feature {
-  margin-bottom: 30px;
-  background-color: var(--button-navigation-color);
 }
