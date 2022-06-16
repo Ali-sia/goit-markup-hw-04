@@ -54,6 +54,8 @@ h3: font-family: 'Roboto'; 500
   --border-nav-color: #ececec;
   --border-portfolio-color: #eeeeee;
   --border-clients-color: #afb1b8;
+
+  --sotial-link-color: #afb1b8;
 }
 
 body {
@@ -400,11 +402,11 @@ img {
   margin-bottom: 0;
 }
 
-.team-list .item:not(:nth-last-child(-n + 1)) {
+.team-list > .item:not(:nth-last-child(-n + 1)) {
   margin-right: 30px;
 }
 
-.team-list .item {
+.team-list > .item {
   text-align: center;
   background-color: var(--white-text-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -427,7 +429,17 @@ img {
 }
 
 .team-list p {
-  margin: 0;
+  margin: 0 0 16px 0;
+}
+
+.team-list .button-link {
+  fill: var(--sotial-link-color);
+}
+
+.team-list .button-link:hover,
+.team-list .button-link:focus {
+  fill: var(--white-text-color);
+  background-color: var(--accent-color);
 }
 
 /* clients */
@@ -644,11 +656,12 @@ button {
 
 .social-list {
   display: flex;
+  justify-content: center;
 }
+
 .social-list .item + .item {
   margin-left: 10px;
 }
-/* fill="#afb1b8" style="fill: var(--color5, #afb1b8)" */
 
 .button-link {
   display: flex;
@@ -662,7 +675,8 @@ button {
   border-radius: 50%;
   background-color: var(--footer-icon-contact);
 }
-.button-icon {
+
+.button-link {
   fill: var(--white-text-color);
 }
 
