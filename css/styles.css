@@ -450,6 +450,10 @@ img {
 }
 
 .clients-list .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   width: 170px;
   border: 1px solid var(--border-clients-color);
   border-radius: 4px;
@@ -460,6 +464,16 @@ img {
   margin-left: 30px;
 }
 
+.button-client {
+  fill: var(--sotial-link-color);
+  background-color: var(--white-text-color);
+  border: none;
+}
+
+.button-client:hover,
+.button-client:focus {
+  fill: var(--accent-color);
+}
 /* fiftr buttons */
 
 .filtr-list {
