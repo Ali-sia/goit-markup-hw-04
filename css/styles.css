@@ -258,6 +258,8 @@ img {
 .hero-bg {
   max-width: 1600px;
   padding: 200px 0;
+  margin-right: auto;
+  margin-left: auto;
 
   background-color: var(--hero-bgc);
   background-repeat: no-repeat;
@@ -546,10 +548,10 @@ img {
   color: var(--primary-text-color);
 }
 
-.portfolio-list .link:hover,
+/* .portfolio-list .link:hover,
 .portfolio-list .link:focus {
   color: var(--accent-color);
-}
+} */
 
 /* button */
 button {
